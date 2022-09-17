@@ -1,0 +1,28 @@
+#section-page {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 90%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  & .title-page {
+    font-family: $primary-font;
+    font-weight: 600;
+  }
+  & .text-information {
+    font-size: .9em;
+  }
+  & .button-register {
+    font-family: $primary-font;
+    font-weight: 400;
+    width: 200px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    color: $violet;
+  }
+}
