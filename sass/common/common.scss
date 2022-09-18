@@ -57,5 +57,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: $soft-magenta;
+
+  & .button-social-media {
+    background: none;
+    border: none;
+  }
+  & .icons-social-media {
+    font-size: 1.5em;
+    color: $white;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 300ms linear;
+  }
+  & .icons-social-media:hover {
+    color: $soft-magenta;
+  }
 }
