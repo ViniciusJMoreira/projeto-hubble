@@ -149,7 +149,7 @@
     width: 80%;
   }
   #section-page .title-page {
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
   #section-page .text-information {
     font-size: 1.2em;
@@ -205,7 +205,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     justify-self: flex-start;
-    gap: 20px;
+    gap: 10px;
   }
   #section-page .title-page {
     font-size: 2em;
