@@ -175,7 +175,7 @@
     font-size: 1.2em;
   }
   #footer-page .icons-social-media {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
 }
 @media (min-width: 1024px) {
@@ -219,7 +219,7 @@
   }
   #section-page .button-register {
     width: 200px;
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 1em;
   }
   #footer-page {
@@ -230,14 +230,6 @@
     justify-content: center;
   }
 }
-@media (min-width: 1300px) {
-  #section-page .title-page {
-    font-size: 2.3em;
-  }
-  #footer-page {
-    grid-area: 2/2/3/3;
-  }
-}
 @media (min-width: 1700px) {
   #header-page .figure-header {
     width: 800px;
@@ -245,6 +237,12 @@
   #section-page {
     justify-self: center;
     width: 550px;
+  }
+  #section-page .title-page {
+    font-size: 2.3em;
+  }
+  #footer-page {
+    grid-area: 2/2/3/3;
   }
 }
 
