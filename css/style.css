@@ -1,6 +1,6 @@
 /* ROOT OF PAGES */ /* COLORS */
 /* FONTS */
-/* COMMON PAGES */
+/* INDEX PAGE */
 *, ::before, ::after {
   margin: 0;
   padding: 0;
@@ -52,28 +52,6 @@
   justify-self: center;
 }
 
-#footer-page {
-  grid-area: 3/1/4/2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#footer-page .button-social-media {
-  background: none;
-  border: none;
-}
-#footer-page .icons-social-media {
-  font-size: 1.5em;
-  color: #fff;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: 300ms linear;
-}
-#footer-page .icons-social-media:hover {
-  color: hsl(300deg, 69%, 71%);
-}
-
-/* INDEX PAGE */
 #section-page {
   grid-area: 2/1/3/2;
   width: 90%;
@@ -109,7 +87,27 @@
   color: #fff;
 }
 
-/* REGISTER PAGE */
+#footer-page {
+  grid-area: 3/1/4/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer-page .button-social-media {
+  background: none;
+  border: none;
+}
+#footer-page .icons-social-media {
+  font-size: 1.5em;
+  color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 300ms linear;
+}
+#footer-page .icons-social-media:hover {
+  color: hsl(300deg, 69%, 71%);
+}
+
 /* MEDIA QUERY */
 @media (min-width: 375px) {
   #header-page {
@@ -230,9 +228,6 @@
     height: 100%;
     align-items: start;
     justify-content: center;
-  }
-  #footer-page .icons-social-media {
-    font-size: 2.1em;
   }
 }
 @media (min-width: 1300px) {

@@ -1,14 +1,8 @@
 /* ROOT OF PAGES */
 @import "variables/root.scss";
 
-/* COMMON PAGES */
-@import "common/common.scss";
-
 /* INDEX PAGE */
 @import "pages/index.scss";
-
-/* REGISTER PAGE */
-@import "pages/register.scss";
 
 /* MEDIA QUERY */
 @import "query/query.scss";
