@@ -87,6 +87,13 @@
   border-radius: 50px;
   letter-spacing: 1px;
   color: hsl(257deg, 40%, 49%);
+  cursor: pointer;
+  border: none;
+  transition: 300ms linear;
+}
+#section-page .button-register:hover {
+  background-color: hsl(300deg, 69%, 71%);
+  color: #fff;
 }
 
 /* REGISTER PAGE */
@@ -106,6 +113,14 @@
   #section-page .title-page {
     font-size: 2em;
   }
+  #section-page .text-information {
+    font-size: 1em;
+  }
+  #section-page .button-register {
+    width: 240px;
+    padding: 12px 0;
+    font-size: 1.1em;
+  }
 }
 @media (min-width: 550px) {
   #header-page {
@@ -123,6 +138,9 @@
   #section-page .title-page {
     font-size: 2.5em;
   }
+  #section-page .text-information {
+    font-size: 1.2em;
+  }
 }
 @media (min-width: 767px) {
   #main-page {
@@ -135,10 +153,15 @@
     width: 600px;
   }
   #header-page .image-logo {
-    width: 250px;
+    width: 220px;
   }
   #section-page {
     width: 70%;
+  }
+  #section-page .button-register {
+    width: 260px;
+    padding: 14px 0;
+    font-size: 1.2em;
   }
 }
 @media (min-width: 1024px) {
@@ -158,6 +181,7 @@
     align-content: space-between;
   }
   #header-page .image-logo {
+    width: 180px;
     justify-self: flex-start;
   }
   #header-page .image-mockups {
@@ -175,6 +199,14 @@
   }
   #section-page .title-page {
     font-size: 2em;
+  }
+  #section-page .text-information {
+    font-size: 1em;
+  }
+  #section-page .button-register {
+    width: 240px;
+    padding: 12px 0;
+    font-size: 1.1em;
   }
   #footer-page {
     grid-area: 2/1/3/3;

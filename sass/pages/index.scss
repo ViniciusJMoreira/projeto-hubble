@@ -25,5 +25,12 @@
     border-radius: 50px;
     letter-spacing: 1px;
     color: $violet;
+    cursor: pointer;
+    border: none;
+    transition: 300ms linear;
+  }
+  & .button-register:hover {
+    background-color: $soft-magenta;
+    color: $white;
   }
 }
