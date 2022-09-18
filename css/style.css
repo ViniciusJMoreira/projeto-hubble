@@ -22,7 +22,7 @@
   background-position: top center;
   color: #fff;
   display: grid;
-  grid-template-rows: 1fr 0.9fr 0.2fr;
+  grid-template-rows: 1fr 0.5fr 0.2fr;
   justify-items: center;
 }
 
@@ -35,7 +35,7 @@
   align-items: center;
 }
 #header-page .figure-header {
-  width: 80%;
+  width: 85%;
   height: 90%;
   display: grid;
   grid-template-rows: 0.5fr 1fr;
@@ -68,7 +68,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 #section-page .title-page {
   font-family: "Poppins";
@@ -91,19 +92,19 @@
 /* REGISTER PAGE */
 /* MEDIA QUERY */
 @media (min-width: 375px) {
-  #section-page {
-    width: 80%;
+  #header-page {
+    height: 500px;
   }
   #section-page .title-page {
     font-size: 1.7em;
   }
 }
 @media (min-width: 420px) {
-  #header-page {
-    height: 500px;
-  }
   #header-page .figure-header {
-    width: 400px;
+    width: 370px;
+  }
+  #section-page .title-page {
+    font-size: 2em;
   }
 }
 @media (min-width: 550px) {
@@ -117,10 +118,10 @@
     width: 200px;
   }
   #section-page {
-    width: 70%;
+    width: 80%;
   }
   #section-page .title-page {
-    font-size: 2.2em;
+    font-size: 2.5em;
   }
 }
 @media (min-width: 767px) {
@@ -135,6 +136,9 @@
   }
   #header-page .image-logo {
     width: 250px;
+  }
+  #section-page {
+    width: 70%;
   }
 }
 @media (min-width: 1024px) {
@@ -168,6 +172,9 @@
     align-items: flex-start;
     justify-self: flex-start;
     gap: 20px;
+  }
+  #section-page .title-page {
+    font-size: 2em;
   }
   #footer-page {
     grid-area: 2/1/3/3;

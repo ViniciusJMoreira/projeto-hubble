@@ -20,7 +20,7 @@
   color: $white;
 
   display: grid;
-  grid-template-rows: 1fr .9fr .2fr;
+  grid-template-rows: 1fr .5fr .2fr;
   justify-items: center;
 }
 
@@ -34,7 +34,7 @@
   align-items: center;
 
   & .figure-header {
-    width: 80%;
+    width: 85%;
     height: 90%;
     display: grid;
     grid-template-rows: .5fr 1fr;
