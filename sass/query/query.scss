@@ -11,26 +11,30 @@
 
 @media (min-width: 420px) {
   #header-page {
+    height: 500px;
+
     & .figure-header {
-      width: 320px;
+      width: 400px;
     }
   }
 }
 
-@media (min-width: 530px) {
+@media (min-width: 550px) {
   #header-page {
-    height: 420px;
+    height: 600px;
 
+    & .figure-header {
+      width: 480px;
+    }
     & .image-logo {
-      justify-self: center;
-      width: 130px;
+      width: 200px;
     }
   }
   #section-page {
     width: 70%;
   
     & .title-page {
-      font-size: 2em;
+      font-size: 2.2em;
     }
   }
 }
@@ -40,11 +44,13 @@
     background-size: cover;
   }
   #header-page {
+    height: 750px;
+    
     & .figure-header {
-      width: 355px;
+      width: 600px;
     }
-    & .image-mockups {
-      width: 350px;
+    & .image-logo {
+      width: 250px;
     }
   }
 }
@@ -55,7 +61,7 @@
     background-size: cover;
 
     grid-template-rows: 1fr .1fr;
-    grid-template-columns: 1fr .7fr;
+    grid-template-columns: 1fr .9fr;
     align-items: center;
   }
   #header-page {
@@ -77,7 +83,7 @@
   #section-page {
     grid-area: 1 / 2 / 2 / 3;
     max-height: 40%;
-    width: 450px;
+    width: 400px;
     text-align: start;
     align-items: flex-start;
     justify-self: flex-start;
