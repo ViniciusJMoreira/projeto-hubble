@@ -231,12 +231,11 @@
     align-items: start;
     justify-content: center;
   }
+  #footer-page .icons-social-media {
+    font-size: 2.1em;
+  }
 }
 @media (min-width: 1300px) {
-  #section-page {
-    justify-self: center;
-    width: 550px;
-  }
   #section-page .title-page {
     font-size: 2.3em;
   }
@@ -247,6 +246,10 @@
 @media (min-width: 1700px) {
   #header-page .figure-header {
     width: 800px;
+  }
+  #section-page {
+    justify-self: center;
+    width: 550px;
   }
 }
 
