@@ -120,13 +120,13 @@
       font-size: 1em;
     }
     & .button-register {
-      width: 240px;
-      padding: 12px 0;
-      font-size: 1.1em;
+      width: 200px;
+      padding: 10px 0;
+      font-size: 1em;
     }
   }
   #footer-page {
-    grid-area: 2 / 1 / 3 / 3;
+    grid-area: 2 / 2 / 3 / 3;
     width: 100%;
     height: 100%;
     align-items: start;
@@ -134,13 +134,21 @@
   }
 }
 
-@media (min-width: 1200px) {
-  #section-page {
+@media (min-width: 1350px) {
+    #section-page {
+    justify-self: center;
+    width: 550px;
 
-    & .button-register {
-      width: 240px;
-      padding: 12px 0;
-      font-size: 1.1em;
+    & .title-page {
+      font-size: 2.3em;
+    }
+  }
+}
+@media (min-width: 1700px) {
+  #header-page {
+
+    & .figure-header {
+      width: 800px;
     }
   }
 }
