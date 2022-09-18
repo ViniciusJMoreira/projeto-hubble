@@ -109,6 +109,7 @@
     width: 400px;
     text-align: start;
     align-items: flex-start;
+    justify-content: flex-start;
     justify-self: flex-start;
     gap: 20px;
 
@@ -130,5 +131,16 @@
     height: 100%;
     align-items: start;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #section-page {
+
+    & .button-register {
+      width: 240px;
+      padding: 12px 0;
+      font-size: 1.1em;
+    }
   }
 }
